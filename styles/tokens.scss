@@ -1,0 +1,42 @@
+//--------------------
+//------- TEXT -------
+//--------------------
+
+//-- Font Family --
+$cfc-font-family-base: "Open Sans", "Helvetica", sans-serif;
+$cfc-font-family-heading: "Lora", "Georgia", serif;
+$cfc-font-family-body: $cfc-font-family-base;
+
+//-- Font Size --
+$cfc-font-size-desktop-heading: 64px;
+$cfc-font-size-desktop-body: 36px;
+$cfc-font-size-mobile-heading: 24px;
+$cfc-font-size-mobile-body: 16px;
+
+//-- Font Weight --
+$cfc-font-weight-heading: 600;
+$cfc-font-weight-body: 400;
+
+
+
+//---------------------
+//------- COLOR -------
+//---------------------
+
+//-- Neutrals --
+$cfc-color-white: #FFFFFF;
+$cfc-color-grey-light: #D7D9E4;
+$cfc-color-grey-middle: #52545B;
+$cfc-color-grey-dark: #262628;
+$cfc-color-black: #000000;
+
+//-- Blues --
+$cfc-color-blue-light: #A8B0C8;
+$cfc-color-blue-middle: #8089B4;
+$cfc-color-blue-brand: #292A74;
+$cfc-color-blue-dark: #0B0E2D;
+
+//-- Oranges --
+$cfc-color-orange-light: #CD9D78;
+$cfc-color-orange-middle: #C88650;
+$cfc-color-orange-dark: #A45920;
