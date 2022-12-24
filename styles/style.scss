@@ -56,6 +56,17 @@ body {
     font-size: $cfc-font-size-mobile-body;
 
     p { line-height: 137.5%; }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+
+        &:hover {
+            text-decoration: underline;
+            text-decoration-thickness: 2px;
+            font-weight: $cfc-font-weight-bold;
+        }
+    }
 }
 
 .page__header__background {
@@ -190,7 +201,7 @@ body {
                            "map contact-item-3" max-content
                            "map contact-item-4" max-content
                            "map contact-item-5" max-content;
-            grid-template-columns: minmax(200px, 500px) min-content;
+            grid-template-columns: minmax(200px, 500px) 350px;
             column-gap: 32px;
         }
 
