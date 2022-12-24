@@ -8,14 +8,18 @@ $cfc-font-family-heading: "Lora", "Georgia", serif;
 $cfc-font-family-body: $cfc-font-family-base;
 
 //-- Font Size --
-$cfc-font-size-desktop-heading: 64px;
-$cfc-font-size-desktop-body: 36px;
+$cfc-font-size-desktop-heading: 36px;
+$cfc-font-size-desktop-body: 16px;
 $cfc-font-size-mobile-heading: 24px;
 $cfc-font-size-mobile-body: 16px;
 
 //-- Font Weight --
-$cfc-font-weight-heading: 600;
-$cfc-font-weight-body: 400;
+$cfc-font-weight-medium: 400;
+$cfc-font-weight-semibold: 600;
+$cfc-font-weight-bold: 700;
+
+$cfc-font-weight-body: $cfc-font-weight-medium;
+$cfc-font-weight-heading: $cfc-font-weight-semibold;
 
 
 
@@ -40,3 +44,12 @@ $cfc-color-blue-dark: #0B0E2D;
 $cfc-color-orange-light: #CD9D78;
 $cfc-color-orange-middle: #C88650;
 $cfc-color-orange-dark: #A45920;
+
+
+
+//---------------------
+//--- BORDER RADIUS ---
+//---------------------
+
+$cfc-border-radius-sm: 8px;
+$cfc-border-radius-lg: 16px;

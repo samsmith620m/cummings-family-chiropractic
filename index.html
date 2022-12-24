@@ -1,104 +1,182 @@
 <!DOCTYPE html>
 <html lang="en-US">
     <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width" />
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="styles/reset.css">
+        <link rel="stylesheet" href="styles/style.css">
+
+        <script defer src="scripts/activePage.js"></script>
+        <script defer src="scripts/carouselDrag.js"></script>
+
         <title>Cummings Family Chiropractic</title>
     </head>
 
     <body>
-        <header>
-            <img src="" alt="Cummings Family Chiropractic logo" class="header-logo">
-            <nav>
-                <div class="nav-item">Home</div>
-                <div class="nav-item">Services</div>
-                <div class="nav-item">Contact</div>
-            </nav>
-        </header>
-        <main>
-            <section class="hero">
-                <img src="" alt="Image of Dr. Cummings adjusting a patient with the text 'Weve got your back!' overlayed">
-            </section>
+        <div class="page__header__background">
+            <header class="page__header">
+                <img src="images/wordmark-white.svg" alt="Cummings Family Chiropractic wordmark" class="header__wordmark">
 
-            <article class="contact">
-                <header class="section-header">We'd love to hear from you!</header>
-                <div class="contact-item">
-                    <img src="" alt="Blue phone icon" class="contact-item-img">
-                    <p>319-362-3601</p>
-                </div>
-                <div class="contact-item">
-                    <img src="" alt="Blue email icon" class="contact-item-img">
-                    <p>Info@CummingsChiro.com</p>
-                </div>
-                <div class="contact-item">
-                    <img src="" alt="Blue Facebook icon" class="contact-item-img">
-                    <p>Cummings Family Chiropractic</p>
-                </div>
-                <div class="contact-item">
-                    <img src="" alt="Blue clock icon" class="contact-item-img">
-                    <ul class="office-hours-days">
-                        <li>Mon</li>
-                        <li>Tues</li>
-                        <li>Wed</li>
-                        <li>Thurs</li>
-                        <li>Fri</li>
-                    </ul>
-                    <ul class="office-hours-availability">
-                        <li>8am-12pm, 2pm-5:30pm</li>
-                        <li>8am-12pm, 2pm-5:30pm</li>
-                        <li>12pm-5:30pm</li>
-                        <li>8am-12pm, 2pm-5:30pm</li>
-                        <li>8am-1pm</li>
-                    </ul>
-                </div>
-                <div class="contact-item">
-                    <img src="" alt="Blue map pin icon" class="contact-item-img">
-                    <p>4225 Glass Road NE,<br>Cedar Rapids, IA 52402</p>
-                    [Google Map Embed]
-                </div>
-            </article>
+                <p class="quick-contact">4225 Glass Road NE, Cedar Rapids, IA 52402 <br> 319-362-3601</p>
 
-            <article class="story">
-                <header class="section-header">This is the CFC story...</header>
-                <section class="story-section">
-                    <img src="" alt="Image of Dr. Cummings smiling genuinely" class="dr-cummings">
-                    <p><span>Chris P Cummings, DC,</span> is a Chiropractic specialist in Cedar Rapids, Iowa. He graduated from Palmer College of Chiropractic — Davenport in 1998, has over 20 years of diverse experience in the field, and specializes in Chiropractic services. Dr. Cummings also coordinates with other doctors and physicians in medial groups including Cummings Family Chiropractic Pc.</p>
-                </section>
-                <section class="story-section">
-                    <img src="" alt="Image of Cummings Family Chiropractic building" class="cfc-building">
-                    <p><span>Cummings Family Chiropractic,</span> located in Cedar Rapids, Iowa is the area’s leading chiropractic clinic serving Cedar Rapids, Hiawatha, Marion, Palo, and the surroundings areas since 1998. We specialize in gentle, effective chiropractic adjustments, therapeutic exercises, computerized diagnostic testing, custom orthotics and much more. Our mission at Cummings Family Chiropractic is to partner with our patients to help you lead a happier, healthier life and to be a positive resource for our community’s health through personalized, family-based, extraordinary chiropractic care.</p>
-                </section>
-            </article>
+                <nav>
+                    <a class="nav__item" href="/index.html" >Home</a>
+                    <a class="nav__item" href="/services.html">Services</a>
+                    <a class="nav__item" href="/contact.html">Contact</a>
+                </nav>
+            </header>
+        </div>
 
-            <article class="reviews">
-                <header class="section-header">What our patients are saying:</header>
+        <main class="page__main">
+            <img src="images/hero.png" alt="Hero image of Dr. Cummings adjusting a patient with the text 'Weve got your back!' overlayed" class="hero__image">
+
+            <div class="contact">
+                <div class="section__header__background">
+                    <header class="section__header">We'd love to hear from you!</header>
+                </div>
+
+                <div class="contact__main">
+                    <div class="contact__section">
+                        <img src="images/phone.svg" alt="Blue phone icon" class="contact__section__img">
+
+                        <p>319-362-3601</p>
+                    </div>
+
+                    <div class="contact__section">
+                        <img src="images/email.svg" alt="Blue email icon" class="contact__section__img">
+
+                        <p>Info@CummingsChiro.com</p>
+                    </div>
+
+                    <div class="contact__section">
+                        <img src="images/facebook.svg" alt="Blue Facebook icon" class="contact__section__img">
+
+                        <p>Cummings Family Chiropractic</p>
+                    </div>
+
+                    <div class="contact__section">
+                        <img src="images/clock.svg" alt="Blue clock icon" class="contact__section__img">
+                        
+                        <div class="office-hours">
+                            <p class="day">Mon</p> 
+                            <p class="time">8am-12pm, 2pm-5:30pm</p>
+
+                            <p class="day">Tues</p> 
+                            <p class="time">8am-12pm, 2pm-5:30pm</p>
+
+                            <p class="day">Wed</p> 
+                            <p class="time">12pm-5:30pm</p>
+
+                            <p class="day">Thurs</p> 
+                            <p class="time">8am-12pm, 2pm-5:30pm</p>
+
+                            <p class="day">Fri</p> 
+                            <p class="time">8am-1pm</p>
+                        </div>
+                    </div>
+
+                    <div class="contact__section">
+                        <img src="images/location.svg" alt="Blue map pin icon" class="contact__section__img">
+
+                        <p>4225 Glass Road NE,<br>Cedar Rapids, IA 52402</p>
+                    </div>
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2964.256321488833!2d-91.7018519!3d42.0162334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87e4f06728ce1de5%3A0x718bc07effc60264!2sCummings%20Family%20Chiropractic!5e0!3m2!1sen!2sus!4v1670178859146!5m2!1sen!2sus" class="embedded-map" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+            <div class="story">
+                <div class="section__header__background">
+                    <header class="section__header">This is the CFC story...</header>
+                </div>
+
+                <img src="images/vert1.svg" alt="background image of spine vertebrate" class="vert vert-1">
+
+                <div class="story__section">
+                    <img src="images/vert2grad.svg" alt="background image of spine vertebrate" class="vert vert-2">
+
+                    <img src="images/drC.png" alt="Image of Dr. Cummings smiling genuinely" class="dr-c">
+
+                    <p><span class="subtitle-inline">Chris P Cummings, DC,</span> is a Chiropractic specialist in Cedar Rapids, Iowa. He graduated from Palmer College of Chiropractic — Davenport in 1998, has over 20 years of diverse experience in the field, and specializes in Chiropractic services. Dr. Cummings also coordinates with other doctors and physicians in medial groups including Cummings Family Chiropractic Pc.</p>
+                </div>
+
+                <div class="story__section">
+                    <img src="images/vert3grad.svg" alt="background image of spine vertebrate" class="vert vert-3">
+
+                    <img src="images/building.png" alt="Image of Cummings Family Chiropractic building" class="cfc-building">
+
+                    <p class="cfc-building-text"><span class="subtitle-inline">Cummings Family Chiropractic,</span> located in Cedar Rapids, Iowa is the area’s leading chiropractic clinic serving Cedar Rapids, Hiawatha, Marion, Palo, and the surroundings areas since 1998. We specialize in gentle, effective chiropractic adjustments, therapeutic exercises, computerized diagnostic testing, custom orthotics and much more. Our mission at Cummings Family Chiropractic is to partner with our patients to help you lead a happier, healthier life and to be a positive resource for our community’s health through personalized, family-based, extraordinary chiropractic care.</p>
+                </div>
+
+                <img src="images/vert4.svg" alt="background image of spine vertebrate" class="vert vert-4">
+            </div>
+
+            <div class="reviews">
+                <div class="section__header__background">
+                    <header class="section__header">What our patients are saying:</header>
+                </div>
+
                 <div class="review-carousel">
-                    <section class="review">
-                        <img src="" alt="Illustration of customer who wrote the review" class="review-illustration">
-                        <title>Jessica</title>
-                        <img src="" alt="Image of 5 out of 5 review stars" class="review-stars">
-                        <p>“He explains everything in detail. Makes you a plan, and talks with you about changing postural habits at home. Exactly what I've been looking for!"</p>
-                        <img src="" alt="Cummings Family Chiropractic logo watermark in the background of the review" class="cfc-logo-watermark">
-                    </section>
-                    <section class="review">
-                        <img src="" alt="Illustration of customer who wrote the review" class="review-illustration">
-                        <title>Sarah</title>
-                        <img src="" alt="Image of 5 out of 5 review stars" class="review-stars">
-                        <p>"My daughter is being seen by Dr. Cummings for Migraines - since we started the improvement has been amazing! Dr. Cummings is great with my daughter (and the other 3 watching!) and knows how to communicate well with her and make her feel comfortable. We love Dr. Cummings!!" </p>
-                        <img src="" alt="Cummings Family Chiropractic logo watermark in the background of the review" class="cfc-logo-watermark">
-                    </section>
-                    <section class="review">
-                        <img src="" alt="Illustration of customer who wrote the review" class="review-illustration">
-                        <title>David</title>
-                        <img src="" alt="Image of 5 out of 5 review stars" class="review-stars">
-                        <p>"My Wife and I both love Cummings Family Chiropractic. I look forward to our visits for two reasons. 1. What he does actually helps us. 2. It's just a pleasure to go there. Greeted at the door and then the professionalism continues throughout. I would highly recommend Cummings Family Chiropractic."</p>
-                        <img src="" alt="Cummings Family Chiropractic logo watermark in the background of the review" class="cfc-logo-watermark">
-                    </section>
+                    <button id="left" class="review-carousel__button review-carousel__button--left">
+                        <img src="images/chevron_left.svg" alt="left arrow">
+                    </button>
+                    
+                    <div class="review-carousel__reviews">
+                        <div class="review">
+                            <div class="review__profile">
+                                <img src="images/sarah.svg" alt="Illustration of patient who wrote the review" class="review__illustration">
+
+                                <h5 class="review__name">Sarah</h5>
+
+                                <img src="images/stars-orange-dark.svg" alt="Image of 5 out of 5 review stars" class="review__stars">
+                            </div>
+
+                            <p class="review__content">"My daughter is being seen by Dr. Cummings for Migraines - since we started the improvement has been amazing! Dr. Cummings is great with my daughter (and the other 3 watching!) and knows how to communicate well with her and make her feel comfortable. We love Dr. Cummings!!" </p>
+
+                            <img src="images/logo-white.svg" alt="Cummings Family Chiropractic logo watermark in the background of the review" class="review__watermark">
+                        </div>
+
+                        <div class="review">
+                            <div class="review__profile">
+                                <img src="images/david.svg" alt="Illustration of patient who wrote the review" class="review__illustration">
+
+                                <h5 class="review__name">David</h5>
+
+                                <img src="images/stars-blue-brand.svg" alt="Image of 5 out of 5 review stars" class="review__stars">
+                            </div>
+
+                            <p class="review__content">"My wife and I both love Cummings Family Chiropractic. I look forward to our visits for two reasons. 1. What he does actually helps us. 2. It's just a pleasure to go there. Greeted at the door and then the professionalism continues throughout. I would highly recommend Cummings Family Chiropractic."</p>
+
+                            <img src="images/logo-white.svg" alt="Cummings Family Chiropractic logo watermark in the background of the review" class="review__watermark">
+                        </div>
+
+                        <div class="review">
+                            <div class="review__profile">
+                                <img src="images/jessica.svg" alt="Illustration of patient who wrote the review" class="review__illustration">
+
+                                <h5 class="review__name">Jessica</h5>
+
+                                <img src="images/stars-blue-light.svg" alt="Image of 5 out of 5 review stars" class="review__stars">
+                            </div>
+
+                            <p class="review__content">“He explains everything in detail. Makes you a plan, and talks with you about changing postural habits at home. Exactly what I've been looking for!"</p>
+
+                            <img src="images/logo-white.svg" alt="Cummings Family Chiropractic logo watermark in the background of the review" class="review__watermark">
+                        </div>
+                    </div>
+
+                    <button id="right" class="review-carousel__button review-carousel__button--right">
+                        <img src="images/chevron_right.svg" alt="arrow right">
+                    </button>
                 </div>
-            </article>
+            </div>
         </main>
-        <footer>
-            © 2023 Cummings Family Chiropractic 
-        </footer>
+        <div class="footer__background">
+            <footer>
+                © 2023 Cummings Family Chiropractic 
+            </footer>
+        </div>
     </body>
 </html>
